@@ -1,0 +1,8 @@
+C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\bin\Debug\netcoreapp2.2\Sabio.Web.Models.deps.json
+C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\bin\Debug\netcoreapp2.2\Sabio.Web.Models.dll
+C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\bin\Debug\netcoreapp2.2\Sabio.Web.Models.pdb
+C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.Web.Models.csproj.CoreCompileInputs.cache
+C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.Web.Models.AssemblyInfoInputs.cache
+C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.Web.Models.AssemblyInfo.cs
+C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.Web.Models.dll
+C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.Web.Models.pdb

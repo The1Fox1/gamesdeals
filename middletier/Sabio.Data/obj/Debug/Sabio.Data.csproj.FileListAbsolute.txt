@@ -1,0 +1,5 @@
+C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\Sabio.Data.csproj.CoreCompileInputs.cache
+C:\SF.Code\gamedeals\middletier\Sabio.Data\bin\Debug\Sabio.Data.dll
+C:\SF.Code\gamedeals\middletier\Sabio.Data\bin\Debug\Sabio.Data.pdb
+C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\Sabio.Data.dll
+C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\Sabio.Data.pdb

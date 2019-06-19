@@ -2,20 +2,15 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sabio.Data
 {
     public class UniqueIdTable : IEnumerable<SqlDataRecord>
     {
-
         private IEnumerable<Guid> _items;
 
         public UniqueIdTable(IEnumerable<Guid> items)
         {
-
             _items = items;
         }
 
@@ -24,7 +19,7 @@ namespace Sabio.Data
             return new SqlDataRecord(
                     new SqlMetaData[] { new SqlMetaData("Data", SqlDbType.UniqueIdentifier) }
                );
-        }      
+        }
 
         public IEnumerator<SqlDataRecord> GetEnumerator()
         {
@@ -32,14 +27,12 @@ namespace Sabio.Data
             {
                 foreach (Guid item in _items)
                 {
-
                     var rec = GetRecord();
 
                     rec.SetGuid(0, item);
 
                     yield return rec;
                 }
-
             }
 
             yield break;

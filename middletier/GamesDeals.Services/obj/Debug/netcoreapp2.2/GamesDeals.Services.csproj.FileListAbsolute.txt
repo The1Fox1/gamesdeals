@@ -6,3 +6,7 @@ C:\SF.Code\gamedeals\middletier\GamesDeals.Services\obj\Debug\netcoreapp2.2\Game
 C:\SF.Code\gamedeals\middletier\GamesDeals.Services\obj\Debug\netcoreapp2.2\GamesDeals.Services.AssemblyInfo.cs
 C:\SF.Code\gamedeals\middletier\GamesDeals.Services\obj\Debug\netcoreapp2.2\GamesDeals.Services.dll
 C:\SF.Code\gamedeals\middletier\GamesDeals.Services\obj\Debug\netcoreapp2.2\GamesDeals.Services.pdb
+C:\SF.Code\gamedeals\middletier\GamesDeals.Services\obj\Debug\netcoreapp2.2\GamesDeals.Services.csprojAssemblyReference.cache
+C:\SF.Code\gamedeals\middletier\GamesDeals.Services\bin\Debug\netcoreapp2.2\GamesDeals.Models.dll
+C:\SF.Code\gamedeals\middletier\GamesDeals.Services\bin\Debug\netcoreapp2.2\GamesDeals.Models.pdb
+C:\SF.Code\gamedeals\middletier\GamesDeals.Services\obj\Debug\netcoreapp2.2\GamesDeals.Services.csproj.CopyComplete

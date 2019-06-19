@@ -4,14 +4,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamesDeals.Web.Api", "GamesDeals.Web.Api\GamesDeals.Web.Api.csproj", "{3BDE05D6-B69B-4463-B0D1-310921CD23F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0959939-E52B-46F3-BB45-F0F09FF301E2} = {F0959939-E52B-46F3-BB45-F0F09FF301E2}
+		{DA22ED81-95B2-47A6-BCA8-C94E74BDFF9F} = {DA22ED81-95B2-47A6-BCA8-C94E74BDFF9F}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabio.Data", "Sabio.Data\Sabio.Data.csproj", "{F696CB27-02F4-4326-A80D-99B070A888CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sabio.Web.Models", "Sabio.Web.Models\Sabio.Web.Models.csproj", "{F0959939-E52B-46F3-BB45-F0F09FF301E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabio.Web.Models", "Sabio.Web.Models\Sabio.Web.Models.csproj", "{F0959939-E52B-46F3-BB45-F0F09FF301E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamesDeals.Services", "GamesDeals.Services\GamesDeals.Services.csproj", "{C070C6F5-3992-42E4-85D1-E107F4F03553}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DA22ED81-95B2-47A6-BCA8-C94E74BDFF9F} = {DA22ED81-95B2-47A6-BCA8-C94E74BDFF9F}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesDeals.Services", "GamesDeals.Services\GamesDeals.Services.csproj", "{C070C6F5-3992-42E4-85D1-E107F4F03553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamesDeals.Models", "GamesDeals.Models\GamesDeals.Models.csproj", "{DA22ED81-95B2-47A6-BCA8-C94E74BDFF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesDeals.Models", "GamesDeals.Models\GamesDeals.Models.csproj", "{DA22ED81-95B2-47A6-BCA8-C94E74BDFF9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sabio.Data", "Sabio.Data\Sabio.Data.csproj", "{6A847AF9-D169-4826-803B-8842A9EF20FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +30,6 @@ Global
 		{3BDE05D6-B69B-4463-B0D1-310921CD23F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BDE05D6-B69B-4463-B0D1-310921CD23F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BDE05D6-B69B-4463-B0D1-310921CD23F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F696CB27-02F4-4326-A80D-99B070A888CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F696CB27-02F4-4326-A80D-99B070A888CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F696CB27-02F4-4326-A80D-99B070A888CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F696CB27-02F4-4326-A80D-99B070A888CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F0959939-E52B-46F3-BB45-F0F09FF301E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F0959939-E52B-46F3-BB45-F0F09FF301E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0959939-E52B-46F3-BB45-F0F09FF301E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +42,10 @@ Global
 		{DA22ED81-95B2-47A6-BCA8-C94E74BDFF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA22ED81-95B2-47A6-BCA8-C94E74BDFF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA22ED81-95B2-47A6-BCA8-C94E74BDFF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A847AF9-D169-4826-803B-8842A9EF20FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A847AF9-D169-4826-803B-8842A9EF20FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A847AF9-D169-4826-803B-8842A9EF20FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A847AF9-D169-4826-803B-8842A9EF20FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

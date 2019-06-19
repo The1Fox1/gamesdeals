@@ -1,25 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Newtonsoft.Json;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sabio.Data
 {
     public static class IDataReaderExt
     {
-
-        public  static void AddOutputParameter(this SqlParameterCollection coll, string parameterName, SqlDbType sqlDbType)
-        {
-            SqlParameter p = new SqlParameter(parameterName, sqlDbType);
-            p.Direction = ParameterDirection.Output;
-            coll.Add(p);
-        }
-
         #region Safe Reference Type Mappers
+
         /*
             For value types, there should be  GetSafe... and a GetSafe...Nullable variants,
             the first for non-nullable and the second for nullable variations.
@@ -32,7 +22,7 @@ namespace Sabio.Data
         {
             if (reader[ordinal] != null && reader[ordinal] != DBNull.Value)
             {
-                if(trim)
+                if (trim)
                     return reader.GetString(ordinal).Trim();
                 else
                     return reader.GetString(ordinal);
@@ -41,6 +31,22 @@ namespace Sabio.Data
             {
                 return null;
             }
+        }
+
+        public static T DeserializeObject<T>(this IDataReader reader, Int32 ordinal)
+        {
+            T result = default(T);
+
+            if (reader[ordinal] != null && reader[ordinal] != DBNull.Value)
+            {
+                string myJson = reader.GetString(ordinal);
+
+                if (!string.IsNullOrEmpty(myJson))
+                {
+                    result = JsonConvert.DeserializeObject<T>(myJson);
+                }
+            }
+            return result;
         }
 
         public static Uri GetSafeUri(this IDataReader reader, Int32 ordinal)
@@ -56,7 +62,6 @@ namespace Sabio.Data
                 }
                 return null;
             }
-
             else
             {
                 return null;
@@ -87,12 +92,13 @@ namespace Sabio.Data
             }
         }
 
-        #endregion
+        #endregion Safe Reference Type Mappers
 
-        #region Safe Value Type mappers
+        #region - Safe Value Type mappers -
+
         /*
-            For values types, there should be two variants for each data type, 
-            GetSafe...() for non-nullable and GetSafe...Nullable() for 
+            For values types, there should be two variants for each data type,
+            GetSafe...() for non-nullable and GetSafe...Nullable() for
             nullable.
         */
 
@@ -102,7 +108,6 @@ namespace Sabio.Data
             {
                 return reader.GetGuid(ordinal);
             }
-
             else
             {
                 return Guid.Empty;
@@ -115,7 +120,6 @@ namespace Sabio.Data
             {
                 return reader.GetGuid(ordinal);
             }
-
             else
             {
                 return null;
@@ -387,8 +391,8 @@ namespace Sabio.Data
         }
 
         /// <summary>
-        /// Assuming an Enum's string value is saved as a string type in the database, this
-        /// method parses the string and attempts to map it to the corresponding C# enum value.
+        /// Assuming an Enum's string value is saved as a string type in the database, this method
+        /// parses the string and attempts to map it to the corresponding C# enum value.
         /// </summary>
         /// <typeparam name="TEnum">Type of enum</typeparam>
         /// <param name="reader">Data Reader</param>
@@ -417,7 +421,6 @@ namespace Sabio.Data
             return parsedValue;
         }
 
-        
-        #endregion
+        #endregion - Safe Value Type mappers -
     }
 }

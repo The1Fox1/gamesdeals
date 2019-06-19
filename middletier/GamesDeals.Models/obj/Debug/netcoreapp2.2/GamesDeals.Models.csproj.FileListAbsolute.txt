@@ -6,3 +6,4 @@ C:\SF.Code\gamedeals\middletier\GamesDeals.Models\obj\Debug\netcoreapp2.2\GamesD
 C:\SF.Code\gamedeals\middletier\GamesDeals.Models\obj\Debug\netcoreapp2.2\GamesDeals.Models.AssemblyInfo.cs
 C:\SF.Code\gamedeals\middletier\GamesDeals.Models\obj\Debug\netcoreapp2.2\GamesDeals.Models.dll
 C:\SF.Code\gamedeals\middletier\GamesDeals.Models\obj\Debug\netcoreapp2.2\GamesDeals.Models.pdb
+C:\SF.Code\gamedeals\middletier\GamesDeals.Models\obj\Debug\netcoreapp2.2\GamesDeals.Models.csprojAssemblyReference.cache

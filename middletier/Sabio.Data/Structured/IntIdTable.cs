@@ -2,20 +2,15 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sabio.Data
 {
     public class IntIdTable : IEnumerable<SqlDataRecord>
     {
-
         private IEnumerable<Int32> _items;
 
         public IntIdTable(IEnumerable<Int32> items)
         {
-
             _items = items;
         }
 
@@ -24,7 +19,7 @@ namespace Sabio.Data
             return new SqlDataRecord(
                     new SqlMetaData[] { new SqlMetaData("Data", SqlDbType.Int) }
                );
-        }      
+        }
 
         public IEnumerator<SqlDataRecord> GetEnumerator()
         {
@@ -32,14 +27,12 @@ namespace Sabio.Data
             {
                 foreach (Int32 item in _items)
                 {
-
                     var rec = GetRecord();
 
                     rec.SetInt32(0, item);
 
                     yield return rec;
                 }
-
             }
 
             yield break;

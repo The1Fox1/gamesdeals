@@ -6,3 +6,4 @@ C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.W
 C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.Web.Models.AssemblyInfo.cs
 C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.Web.Models.dll
 C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.Web.Models.pdb
+C:\SF.Code\gamedeals\middletier\Sabio.Web.Models\obj\Debug\netcoreapp2.2\Sabio.Web.Models.csprojAssemblyReference.cache

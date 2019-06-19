@@ -28,3 +28,9 @@ C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\obj\Debug\netcoreapp2.2\Games
 C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\obj\Debug\netcoreapp2.2\GamesDeals.Web.Api.pdb
 C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\obj\Debug\netcoreapp2.2\GamesDeals.Web.Api.csproj.CopyComplete
 C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\obj\Debug\netcoreapp2.2\GamesDeals.Web.Api.csprojAssemblyReference.cache
+C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\bin\Debug\netcoreapp2.2\GamesDeals.Models.dll
+C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\bin\Debug\netcoreapp2.2\GamesDeals.Services.dll
+C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\bin\Debug\netcoreapp2.2\GamesDeals.Services.pdb
+C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\bin\Debug\netcoreapp2.2\GamesDeals.Models.pdb
+C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\bin\Debug\netcoreapp2.2\Sabio.Web.Models.dll
+C:\SF.Code\gamedeals\middletier\GamesDeals.Web.Api\bin\Debug\netcoreapp2.2\Sabio.Web.Models.pdb

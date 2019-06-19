@@ -1,10 +1,6 @@
 ﻿using Microsoft.SqlServer.Server;
-using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sabio.Data
 {
@@ -14,33 +10,28 @@ namespace Sabio.Data
 
         public NVarcharTable(IEnumerable<string> items)
         {
-
             _items = items;
         }
 
-
         private static SqlDataRecord GetRecord()
         {
-             return  new SqlDataRecord(
-                     new SqlMetaData[] { new SqlMetaData("Data", SqlDbType.NVarChar, -1) }
-                );
-        }      
+            return new SqlDataRecord(
+                    new SqlMetaData[] { new SqlMetaData("Data", SqlDbType.NVarChar, -1) }
+               );
+        }
 
         public IEnumerator<SqlDataRecord> GetEnumerator()
         {
-           
-            if(_items!=null)
+            if (_items != null)
             {
                 foreach (string item in _items)
                 {
-
                     var rec = GetRecord();
 
-                    rec.SetString(0,item);
+                    rec.SetString(0, item);
 
                     yield return rec;
                 }
-            
             }
 
             yield break;

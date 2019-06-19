@@ -7,9 +7,17 @@
 
 
   <ItemGroup>
+    <PackageReference Include="IronWebScraper" Version="4.0.4.3" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\GamesDeals.Services\GamesDeals.Services.csproj" />
+    <ProjectReference Include="..\Sabio.Web.Models\Sabio.Web.Models.csproj" />
   </ItemGroup>
 
 </Project>

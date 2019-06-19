@@ -1,0 +1,17 @@
+C:\SF.Code\SellersPlace\dotnet\Sabio.Data\bin\Debug\netcoreapp2.2\Sabio.Data.deps.json
+C:\SF.Code\SellersPlace\dotnet\Sabio.Data\bin\Debug\netcoreapp2.2\Sabio.Data.dll
+C:\SF.Code\SellersPlace\dotnet\Sabio.Data\bin\Debug\netcoreapp2.2\Sabio.Data.pdb
+C:\SF.Code\SellersPlace\dotnet\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.csproj.CoreCompileInputs.cache
+C:\SF.Code\SellersPlace\dotnet\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.AssemblyInfoInputs.cache
+C:\SF.Code\SellersPlace\dotnet\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.AssemblyInfo.cs
+C:\SF.Code\SellersPlace\dotnet\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.dll
+C:\SF.Code\SellersPlace\dotnet\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.pdb
+C:\SF.Code\SellersPlace\dotnet\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.csprojAssemblyReference.cache
+C:\SF.Code\gamedeals\middletier\Sabio.Data\bin\Debug\netcoreapp2.2\Sabio.Data.deps.json
+C:\SF.Code\gamedeals\middletier\Sabio.Data\bin\Debug\netcoreapp2.2\Sabio.Data.dll
+C:\SF.Code\gamedeals\middletier\Sabio.Data\bin\Debug\netcoreapp2.2\Sabio.Data.pdb
+C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.csproj.CoreCompileInputs.cache
+C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.AssemblyInfoInputs.cache
+C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.AssemblyInfo.cs
+C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.dll
+C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.pdb

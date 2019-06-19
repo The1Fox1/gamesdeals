@@ -11,16 +11,20 @@ export const getGame = id => dispatch => {
   gameServices
     .getGameById(id)
     .then(item => dispatch({ type: TYPES.GET_GAME, payload: item }))
-    .catch(xhr => console.log(xhr));
+    .catch(xhr => console.log("Get Game Failed: ", xhr));
 };
 
 export const addGame = gameStr => dispatch => {
   testServices
     .search(gameStr)
     .then(data => dispatch({ type: TYPES.ADD_GAME, payload: data.list }))
-    .catch(xhr => console.log(xhr));
+    .catch(xhr => console.log("Backup Call Failed: ", xhr));
 };
 
+export const addList = gameList => dispatch => {
+  debugger;
+  dispatch({ type: TYPES.ADD_GAME, payload: gameList });
+};
 //for axios use dispatch, example below
 
 // export function getPeople() {

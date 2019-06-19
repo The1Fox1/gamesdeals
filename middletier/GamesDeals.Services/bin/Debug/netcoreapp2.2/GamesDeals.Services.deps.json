@@ -1,20 +1,68 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "bdaaed1e2ec257aec92f9e0f3a7db8325bb6be61"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "GamesDeals.Services/1.0.0": {
+        "dependencies": {
+          "GamesDeals.Models": "1.0.0",
+          "IronWebScraper": "4.0.4.3",
+          "Newtonsoft.Json": "12.0.2"
+        },
         "runtime": {
           "GamesDeals.Services.dll": {}
+        }
+      },
+      "IronWebScraper/4.0.4.3": {
+        "runtime": {
+          "lib/net452/IronWebScraper.dll": {
+            "assemblyVersion": "4.0.4.29861",
+            "fileVersion": "4.0.4.3"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "GamesDeals.Models/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "GamesDeals.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
     "GamesDeals.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IronWebScraper/4.0.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JzNIk/8QG5+aWSH1gH6cpfwn0XpHeONQ1gdNGSfgNebEnK1R5V+9vukMet7kdkMPVxgPukIDKBe32NrctqqUFg==",
+      "path": "ironwebscraper/4.0.4.3",
+      "hashPath": "ironwebscraper.4.0.4.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "GamesDeals.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -21,11 +21,9 @@ export const addGame = gameStr => dispatch => {
     .catch(xhr => console.log("Backup Call Failed: ", xhr));
 };
 
-export const addList = gameList => dispatch => {
-  debugger;
+export const addGameList = gameList => dispatch => {
   dispatch({ type: TYPES.ADD_GAME, payload: gameList });
 };
-//for axios use dispatch, example below
 
 // export function getPeople() {
 //     _logger("getPeople dispatched and currying");

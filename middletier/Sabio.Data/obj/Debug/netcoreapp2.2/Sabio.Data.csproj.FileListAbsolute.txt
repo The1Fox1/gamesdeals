@@ -15,3 +15,4 @@ C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.As
 C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.AssemblyInfo.cs
 C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.dll
 C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.pdb
+C:\SF.Code\gamedeals\middletier\Sabio.Data\obj\Debug\netcoreapp2.2\Sabio.Data.csprojAssemblyReference.cache

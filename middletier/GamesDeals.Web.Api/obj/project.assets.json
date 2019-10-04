@@ -4749,13 +4749,28 @@
         "dependencies": {
           "GamesDeals.Models": "1.0.0",
           "IronWebScraper": "4.0.4.3",
-          "Newtonsoft.Json": "12.0.2"
+          "Newtonsoft.Json": "12.0.2",
+          "Sabio.Data": "1.0.0"
         },
         "compile": {
           "bin/placeholder/GamesDeals.Services.dll": {}
         },
         "runtime": {
           "bin/placeholder/GamesDeals.Services.dll": {}
+        }
+      },
+      "Sabio.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "System.Data.SqlClient": "4.6.0"
+        },
+        "compile": {
+          "bin/placeholder/Sabio.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sabio.Data.dll": {}
         }
       },
       "Sabio.Web.Models/1.0.0": {
@@ -13001,6 +13016,11 @@
       "type": "project",
       "path": "../GamesDeals.Services/GamesDeals.Services.csproj",
       "msbuildProject": "../GamesDeals.Services/GamesDeals.Services.csproj"
+    },
+    "Sabio.Data/1.0.0": {
+      "type": "project",
+      "path": "../Sabio.Data/Sabio.Data.csproj",
+      "msbuildProject": "../Sabio.Data/Sabio.Data.csproj"
     },
     "Sabio.Web.Models/1.0.0": {
       "type": "project",

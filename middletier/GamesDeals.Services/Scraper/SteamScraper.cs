@@ -9,7 +9,7 @@ namespace GamesDeals.Services.Scraper
 
     public class AppSetting
     {
-        public static string GetAppRoot() => @"C:\SF.Code\gamedeals\middletier\GamesDeals.Services\Services\Scraper";
+        public static string GetAppRoot() => @"C:\SF.Code\gamedeals\middletier\GamesDeals.Services\Scraper";
     }
 
     public class SteamScraper : WebScraper
@@ -68,16 +68,16 @@ namespace GamesDeals.Services.Scraper
                     
 
                 gameList.Add(game);
-                count++;
-                if(count == response.Css("#search_result_container > div > a").Length -1)
-                {
-                    Scrape(gameList, "SteamScraper.Jsonl");
-                }
+                //count++;
+                //if(count == response.Css("#search_result_container > div > a").Length -1)
+                //{
+                //    Scrape(gameList, "SteamScraper.Jsonl");
+                //}
                 
             }
 
             //File.WriteAllText(@"Output/SteamScraper.Jsonl", gameList);
-            
+            Scrape(gameList, "SteamScraper.Jsonl");
 
         }
     }

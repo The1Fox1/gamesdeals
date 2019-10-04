@@ -13,13 +13,14 @@ function App() {
           className="App-logo"
           alt="logo"
         />
-        <span style={{ marginLeft: "auto", marginRight: "auto" }}>
-          React-Redux Graduation Project: Game Deals from 'Deuls Vult'
+        <span style={{ marginRight: "auto" }}>
+          React-Redux Graduation Project: Game Deals
         </span>
       </header>
       <Route path="/" component={Home} />
-      <footer className="container">
-        <p>&copy; Company 2017-2018</p>
+      <footer className="container py-5">
+        <p>&copy; Developed by Brandon Fox 2019</p>
+        <small>Using IsThereAnyDeal API</small>
       </footer>
     </div>
   );

@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+    <Compile Remove="Scraper\NewFolder\**" />
+    <EmbeddedResource Remove="Scraper\NewFolder\**" />
+    <None Remove="Scraper\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GamesDeals.Models\GamesDeals.Models.csproj" />
+    <ProjectReference Include="..\Sabio.Data\Sabio.Data.csproj" />
   </ItemGroup>
 
 </Project>

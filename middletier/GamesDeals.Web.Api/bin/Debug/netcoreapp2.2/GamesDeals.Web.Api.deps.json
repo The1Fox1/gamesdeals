@@ -554,13 +554,26 @@
         "dependencies": {
           "GamesDeals.Models": "1.0.0",
           "IronWebScraper": "4.0.4.3",
-          "Newtonsoft.Json": "12.0.2"
+          "Newtonsoft.Json": "12.0.2",
+          "Sabio.Data": "1.0.0"
         },
         "runtime": {
           "GamesDeals.Services.dll": {}
         },
         "compile": {
           "GamesDeals.Services.dll": {}
+        }
+      },
+      "Sabio.Data/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "System.Data.SqlClient": "4.6.0"
+        },
+        "runtime": {
+          "Sabio.Data.dll": {}
+        },
+        "compile": {
+          "Sabio.Data.dll": {}
         }
       },
       "Sabio.Web.Models/1.0.0": {
@@ -3781,6 +3794,11 @@
       "sha512": ""
     },
     "GamesDeals.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sabio.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

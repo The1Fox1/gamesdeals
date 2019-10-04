@@ -20,7 +20,7 @@ const onGlobalError = err => {
   return Promise.reject(err);
 };
 
-const API_HOST_PREFIX = "http://localhost:62359";
+const API_HOST_PREFIX = "https://localhost:50001";
 
 const API_ITAD_PREFIX = "https://api.isthereanydeal.com";
 

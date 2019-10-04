@@ -6,14 +6,20 @@ namespace GamesDeals.Models.Domain
 {
     public class BaseGame
     {
-        public string Title { get; set; }
+        public int Id { get; set; }
 
-        public string Url { get; set; }
+        public string Plain { get; set; }
+
+        public string Title { get; set; }
 
         public float RetailPrice { get; set; }
 
         public float SalePrice { get; set; }
 
-        public string Image { get; set; }
+       // public int PriceCut { get; set; }
+
+        public DateTime? ReleaseDate { get; set; }
+
+        public DateTime? LastUpdated { get; set; }
     }
 }

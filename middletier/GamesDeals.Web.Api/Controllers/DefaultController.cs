@@ -14,7 +14,7 @@ using Sabio.Web.Models.Responses;
 
 namespace GamesDeals.Web.Api.Controllers
 {
-    [Route("api/testing")]
+    [Route("api/default")]
     [ApiController]
     public class DefaultController : BaseApiController
     {
@@ -31,24 +31,18 @@ namespace GamesDeals.Web.Api.Controllers
            // _defaultServices = defaultServices;
         }
 
-        [HttpGet]
-        public ActionResult<int> Get()
-        {
-            return 5;
-        }
-
         [HttpGet ("SteamTop")]
         public ActionResult<ItemsResponse<SteamGame>> GetTopSell()
         {
             try
             {
-                string outputFilePath = "C:/SF.Code/gamedeals/middletier/GamesDeals.Services/Services/Scraper/Output/SteamScraper.Jsonl";
+                string outputFilePath = "C:/SF.Code/gamedeals/middletier/GamesDeals.Services/Scraper/Output/SteamScraper.Jsonl";
                 List<SteamGame> items = new List<SteamGame>();
                 SteamScraper scraper = new SteamScraper();
 
                 System.IO.File.WriteAllText(@outputFilePath, string.Empty);
 
-                scraper.StartAsync();
+                scraper.Start();
 
                 ItemsResponse<SteamGame> response = new ItemsResponse<SteamGame>();
 
